@@ -25,7 +25,7 @@ def sorted_matrix
 end
 
 def matrix_lookup(matrix, row, column)
-  assembled_matrix[1][1]
+  assembled_matrix[][]
 end
 
 def matrix_update(matrix, row, column, new_value)
