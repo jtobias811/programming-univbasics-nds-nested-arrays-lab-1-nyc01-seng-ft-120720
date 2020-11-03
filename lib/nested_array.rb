@@ -32,6 +32,5 @@ end
 def matrix_update(matrix, row, column, new_value)
   local_copy_of_matrix = assembled_matrix.dup
   matrix_update = local_copy_of_matrix[0][2] = "Lemons"
-
-assembled_matrix
+  matrix_update
 end
